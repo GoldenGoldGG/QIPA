@@ -10,6 +10,8 @@ If you didn't understand anything I just said, you can skip the customizing part
 
 
 
+
+
 ------
 
 ## How to Install **QIPA**
