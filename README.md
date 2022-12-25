@@ -114,11 +114,6 @@ A: Yes.
 A: Yes.
 
 
-
-------
-
-
-
 [^1]: don't quote me on that
 [^2]: absolutely do **not** quote me on that
 [^3]: Except `P`. Fuck you `P`.
