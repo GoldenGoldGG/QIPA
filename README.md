@@ -17,8 +17,8 @@ If you didn't understand anything I just said, you can skip the customizing part
 Installing **QIPA - Customizable Version**:
 
 1. Download & install [Python](https://www.python.org/) and [AutoHotKey](https://www.autohotkey.com/) ([versions](##Version-Compatibility)).
-2. Download & unzip `QIPA-v1_0.zip`.
-3. Open  `QIPA.ahk`.
+2. Download the source code.
+3. Open `QIPA.ahk`.
 
 
 
