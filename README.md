@@ -93,6 +93,10 @@ You can suggest more features by [contacting me](##Contact-Me).
 
 ## FAQ
 
+#### Q: Running `Update.py` doesn't update!
+
+A: Download Python again and select `add to path`, or open the folder in an IDE and run it from there.
+
 #### Q: Can I run multiple instances of **QIPA** at the same time?
 
 A: Theoretically yes, but it wasn't (and will not be) tested. Just make sure every onw has a different modifier hotkey.
