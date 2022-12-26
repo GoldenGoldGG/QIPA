@@ -3,7 +3,6 @@
 
 def make_compile(text):
 	if text in '`;': return f"`{text}"
-	if text == 'g': return 'ɡ'
 	else: return re.sub('◌', '', text)
 
 

@@ -88,7 +88,7 @@
 	C_presses += 1
 	return
 
-; d ð ɖ ɗ ᶑ ◌͆ ◌̺
+; d ð ɖ ɗ ᶑ {U+0346} {U+033A}
 >!d::
 	if (D_presses > 0)
 		Send, {BackSpace}
@@ -104,9 +104,9 @@
 	if (Mod(D_presses, 7) = 4) 
 		Send, ᶑ
 	if (Mod(D_presses, 7) = 5) 
-		Send, ͆
+		Send, {U+0346}
 	if (Mod(D_presses, 7) = 6) 
-		Send, ̺
+		Send, {U+033A}
 
 	D_presses += 1
 	return
@@ -153,7 +153,7 @@
 		Send, {BackSpace}
 
 	if (Mod(G_presses, 4) = 0) 
-		Send, ɡ
+		Send, g
 	if (Mod(G_presses, 4) = 1) 
 		Send, ɢ
 	if (Mod(G_presses, 4) = 2) 
@@ -276,7 +276,7 @@
 	M_presses += 1
 	return
 
-; n ɳ ɲ ŋ ɴ ⁿ ◌̃
+; n ɳ ɲ ŋ ɴ ⁿ {U+0303}
 >!n::
 	if (N_presses > 0)
 		Send, {BackSpace}
@@ -294,7 +294,7 @@
 	if (Mod(N_presses, 7) = 5) 
 		Send, ⁿ
 	if (Mod(N_presses, 7) = 6) 
-		Send, ̃
+		Send, {U+0303}
 
 	N_presses += 1
 	return
@@ -345,7 +345,7 @@
 	Q_presses += 1
 	return
 
-; r ɹ ɾ ɺ ɻ ɽ ɣ ʁ ʀ ˠ ◌˞
+; r ɹ ɾ ɺ ɻ ɽ ɣ ʁ ʀ ˠ {U+02DE}
 >!r::
 	if (R_presses > 0)
 		Send, {BackSpace}
@@ -371,7 +371,7 @@
 	if (Mod(R_presses, 11) = 9) 
 		Send, ˠ
 	if (Mod(R_presses, 11) = 10) 
-		Send, ˞
+		Send, {U+02DE}
 
 	R_presses += 1
 	return
@@ -577,7 +577,7 @@
 	ambiguous_presses_26 += 1
 	return
 
-; ` ˈ ˌ ˒ ˓ ˖ ˗ ˔ ˕ ʼ ‿ ↗︎ ↘︎
+; ` ˒ ˓ ˖ ˗ ˔ ˕ ʼ ˈ ˌ ‿ ↗︎ ↘︎
 >!`::
 	if (ambiguous_presses_27 > 0)
 		Send, {BackSpace}
@@ -585,23 +585,23 @@
 	if (Mod(ambiguous_presses_27, 13) = 0) 
 		Send, ``
 	if (Mod(ambiguous_presses_27, 13) = 1) 
-		Send, ˈ
-	if (Mod(ambiguous_presses_27, 13) = 2) 
-		Send, ˌ
-	if (Mod(ambiguous_presses_27, 13) = 3) 
 		Send, ˒
-	if (Mod(ambiguous_presses_27, 13) = 4) 
+	if (Mod(ambiguous_presses_27, 13) = 2) 
 		Send, ˓
-	if (Mod(ambiguous_presses_27, 13) = 5) 
+	if (Mod(ambiguous_presses_27, 13) = 3) 
 		Send, ˖
-	if (Mod(ambiguous_presses_27, 13) = 6) 
+	if (Mod(ambiguous_presses_27, 13) = 4) 
 		Send, ˗
-	if (Mod(ambiguous_presses_27, 13) = 7) 
+	if (Mod(ambiguous_presses_27, 13) = 5) 
 		Send, ˔
-	if (Mod(ambiguous_presses_27, 13) = 8) 
+	if (Mod(ambiguous_presses_27, 13) = 6) 
 		Send, ˕
-	if (Mod(ambiguous_presses_27, 13) = 9) 
+	if (Mod(ambiguous_presses_27, 13) = 7) 
 		Send, ʼ
+	if (Mod(ambiguous_presses_27, 13) = 8) 
+		Send, ˈ
+	if (Mod(ambiguous_presses_27, 13) = 9) 
+		Send, ˌ
 	if (Mod(ambiguous_presses_27, 13) = 10) 
 		Send, ‿
 	if (Mod(ambiguous_presses_27, 13) = 11) 
