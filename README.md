@@ -17,8 +17,8 @@ If you didn't understand anything I just said, you can skip the customizing part
 Installing **QIPA - Customizable Version**:
 
 1. Download & install [Python](https://www.python.org/) and [AutoHotKey](https://www.autohotkey.com/) ([versions](##Version-Compatibility)).
-2. Download the source code.
-3. Open `QIPA.ahk`.
+2. Download & unzip `QIPA-v1_0.zip`.
+3. Open  `QIPA.ahk`.
 
 
 
@@ -83,19 +83,15 @@ You can suggest more features by [contacting me](##Contact-Me).
 
 ## Contact Me
 
-   <img src="https://assets-global.website-files.com/6257adef93867e50d84d30e2/636e0a6a49cf127bf92de1e2_icon_clyde_blurple_RGB.png" alt="discord logo" style="width:20px;margin-top:3px"/> Golden Gold#8987
+   <img src="https://assets-global.website-files.com/6257adef93867e50d84d30e2/636e0a6a49cf127bf92de1e2_icon_clyde_blurple_RGB.png" alt="discord logo" style="width:40px;margin-top:-8px"/> Golden Gold#8987
 
-   <img src="https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-logo-vector-png-clipart-1.png" alt="twitter logo" style="width:20px;margin-top:8px"/> @GoldenGoldGG
+   <img src="https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-logo-vector-png-clipart-1.png" alt="twitter logo" style="width:40px;margin-top:-13px"/> @GoldenGoldGG
 
 
 
 ------
 
 ## FAQ
-
-#### Q: Running `Update.py` doesn't update!
-
-A: Download Python again and select `add to path`, or open the folder in an IDE and run it from there.
 
 #### Q: Can I run multiple instances of **QIPA** at the same time?
 
@@ -116,6 +112,11 @@ A: Yes.
 #### Q: Why?
 
 A: Yes.
+
+
+
+------
+
 
 
 [^1]: don't quote me on that
