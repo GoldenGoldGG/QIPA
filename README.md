@@ -85,7 +85,7 @@ You can suggest more features by [contacting me](##Contact-Me).
 
    <img src="https://assets-global.website-files.com/6257adef93867e50d84d30e2/636e0a6a49cf127bf92de1e2_icon_clyde_blurple_RGB.png" alt="discord logo" style="width:20px;margin-top:3px"/> Golden Gold#8987
 
-   <img src="https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-logo-vector-png-clipart-1.png" alt="twitter logo" style="width:20px;margin-top:5px"/> @GoldenGoldGG
+   <img src="https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-logo-vector-png-clipart-1.png" alt="twitter logo" style="width:20px;margin-top:8px"/> @GoldenGoldGG
 
 
 
