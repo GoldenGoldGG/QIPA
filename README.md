@@ -18,14 +18,14 @@ Installing **QIPA - Customizable Version**:
 
 1. Download & install [Python](https://www.python.org/) and [AutoHotKey](https://www.autohotkey.com/) ([versions](##Version-Compatibility)).
 2. Download the source code.
-3. Open `QIPA.ahk`.
+3. Launch `QIPA.ahk`.
 
 
 
 Installing **QIPA - Prebuilt Version**:
 
 1. Download `QIPA-prebuilt.exe`.
-2. Open `QIPA-prebuilt.exe`.
+2. Launch `QIPA-prebuilt.exe`.
 
 ## How to Use **QIPA**
 
