@@ -41,7 +41,7 @@ Overriding **QIPA**'s Default Keyboard Mappings:
 2. Write your new mappings, with 1 space between every symbol (*Example*: `a æ ɐ ä ɑ ʌ`). Separate mappings with one newline.
    - **QIPA 1.0** does not support typing more than 1 symbol at a time. So for example, the line `t t͡s t͡ʃ` will not work as intended. 
    - As of **QIPA 1.0**, I was too lazy to write 1 line of python code, so you will need to put a blank newline at the end of the file.
-   - Since **QIPA** is written in AHK, the first key in a mappings needs to be a key in AHK. Normal letters are unaffected by this, but stuff like numbers might require a bit extra research.
+   - Since **QIPA** is written in AHK, the first key in a mappings needs to be a valid key id in AHK. Normal letters are unaffected by this, but stuff like numbers might require a bit extra research.
    - Unicode codes are written same as in AHK: `{U+0069}`. 
    - **QIPA** ignores the symbol `◌`, so a line like this `= ◌̥ ◌̊ ◌̬ ◌̹ ◌͗ ◌̜ ◌͑ ` will work. (there are spaces there, codeblocks are just weird.)
 3. Save the file and run `Update.py`.
