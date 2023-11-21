@@ -52,7 +52,7 @@ Overriding **QIPA**'s Default Keyboard Mappings:
 Overriding **QIPA**'s Default Modifier Hotkey:
 
 1. Open `Options.txt`.
-2. Change the `ModifierKey` attribute to the key's name in AutoHotKey ([AHK modifier symbols](https://www.autohotkey.com/docs/v1/Hotkeys.htm#Symbols))
+2. Change the `ModifierKey` attribute to the key's name in AutoHotKey ([AHK modifier symbols](https://www.autohotkey.com/docs/v1/Hotkeys.htm#Symbols)).
 3. Save `Options.txt` and run `Update.py`.
 4. Restart `QIPA.ahk` by reopening it or through the system tray.
 
@@ -99,7 +99,7 @@ A: Download Python again and select `add to path`, or open the folder in an IDE 
 
 #### Q: Can I run multiple instances of **QIPA** at the same time?
 
-A: Theoretically yes, but it wasn't (and will not be) tested. Just make sure every onw has a different modifier hotkey.
+A: Theoretically yes, but it wasn't (and will not be) tested. Just make sure every one has a different modifier hotkey.
 
 #### Q: Can I press two different keys without lifting the modifier key?
 
