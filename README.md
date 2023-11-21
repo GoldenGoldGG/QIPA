@@ -38,7 +38,7 @@ The IPA symbols are mapped to each letter in your keyboard[^3] based on looks an
 Overriding **QIPA**'s Default Keyboard Mappings:
 
 1. Open `IPAlist.txt` using your text-editor of choice.
-2. Write your new mappings, with 1 space between every symbol. Separate mappings with one newline. (*Example*: `a æ ɐ ä ɑ ʌ`)
+2. Write your new mappings, with 1 space between every symbol (*Example*: `a æ ɐ ä ɑ ʌ`). Separate mappings with one newline.
    - **QIPA 1.0** does not support typing more than 1 symbol at a time. So for example, the line `t t͡s t͡ʃ` will not work as intended. 
    - As of **QIPA 1.0**, I was too lazy to write 1 line of python code, so you will need to put a blank newline at the end of the file.
    - Since **QIPA** is written in AHK, the first key in a mappings needs to be a key in AHK. Normal letters are unaffected by this, but stuff like numbers might require a bit extra research.
